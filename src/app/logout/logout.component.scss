@@ -1,0 +1,18 @@
+/* logout.component.scss */
+
+/* Apply styles to the entire component */
+:host {
+    display: block;
+    width: 100%;
+    height: 100vh;
+    background-color: #000; /* Set background color to black */
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Hide any overflowing content */
+  
+    iframe {
+      width: 100%;
+      height: 100%; /* Make the embedded video cover the whole component */
+    }
+  }
+  
